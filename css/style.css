@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* to push footer to the bottom of the page*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* to remove vertical scroll: */
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+nav.menu {
+  background-color: #e7a958;
+}
+
+footer {
+  background-color: #f1eaca;
+}
+
