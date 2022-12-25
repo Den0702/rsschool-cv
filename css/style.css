@@ -52,6 +52,17 @@ nav.menu {
 }
 
 /**********Sections**************/
+.profile {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile img {
+  box-shadow: 0 5px 20px #bdb7b7;
+  border-radius: 30px;
+}
+
 footer {
   background-color: #f1eaca;
 }
