@@ -136,9 +136,6 @@ h1.section-title {
   border-radius: 30px;
 }
 
-footer {
-  background-color: #dfd29a;
-}
 
 .projects, .disclaimer, .work {
   width: 100%;
@@ -163,6 +160,25 @@ footer {
   background-color: #312f2f;
   margin: 0;
 }
+
+.footer {
+  background-color: #dfd29a;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rs-school {
+  width: 100px;
+  height: 70px;
+  display: block;
+  margin: auto;
+  background-image: url(../assets/rs_school_js.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
 /**********Responsive styles***************/
 /* todo: dodac tu zmniejszona czcionke, gdy ustawie font na body  */
 
